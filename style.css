@@ -1,0 +1,13 @@
+body {
+    margin: 0; /* Bỏ khoảng trắng mặc định */
+    background-color: #222; /* Màu nền tối */
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    min-height: 100vh; /* Chiều cao tối thiểu bằng chiều cao màn hình */
+}
+
+#game-container canvas {
+    border: 3px solid #eee; /* Viền trắng cho canvas game */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Đổ bóng nhẹ */
+}
